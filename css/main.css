@@ -1,0 +1,109 @@
+/*Chat Box Interface*/
+
+.chatBot {
+	height: 300px;
+	border: 1px solid #0b192f;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 1;
+    width: 600px;
+    padding: 10px;
+	overflow-y: auto;
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 8px 12px 0 rgb(0, 0, 0);
+	position: fixed;
+	top: 20%;
+	left: 30%;
+}
+.question {
+	border: 1px solid #0b192f;
+	border-radius: 5px;
+	width: 50%;
+	margin-bottom: 10px;
+	float: right;
+}
+.question h5 {
+	background-color: #0b192f;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.question p {
+	padding: 10px;
+}
+.answer {
+	border: 1px solid #d12767;
+	border-radius: 5px;
+	width: 50%;
+	margin-bottom: 30px;
+}
+.answer h5 {
+	background-color: #d12767;
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding: 10px;
+	color: #fff;
+}
+.answer p {
+	padding: 10px;
+}
+.text {
+	background-color: black;
+	padding: 10px;
+	width: 100%;
+	position: relative;
+	top: 82%;
+}
+.form {
+	background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    color: #565656;
+    padding: 6px 12px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: all 300ms linear;
+    width: 70%;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+}
+.form:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+    color: #333333;
+}
+textarea.form {
+	resize: none;
+	height: 35px;
+	overflow: auto;
+}
+button {
+	overflow: visible;
+}
+.mybtn {
+	display: inline;
+	background-color: #4CAF50;
+	color: #FFFFFF;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    touch-action: manipulation;
+}
+.clickMe {
+	cursor: pointer;
+}
+
+/*Chat Box Interface*/
