@@ -14,7 +14,7 @@
 		
 		<div class="text" id="chatForm">
 			<!--<textarea name="question" class="form">Enter Text</textarea> -->
-			<input type="text" id="question" required="required" class="form" placeholder="Enter Text...">
+			<input type="text" id="question" required="required" class="form" placeholder="Ask a question">
 			<input type="submit" class="mybtn" id="submit_message" value="Send">
 		</div>
 	</div>
