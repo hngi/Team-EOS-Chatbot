@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 2;
+  flex: 1;
   padding: 0.5rem;
 }
 
@@ -45,10 +45,13 @@ menu {
     color: #fff;
     font-size: 20px;
 }
+.skip-btn:hover {
+    background-color: #274967
+}
 
 
 .content-image {
-    width: 40%;
+    width: 25%;
 }
 h3 {
     color: #274970;
@@ -62,15 +65,24 @@ p {
     font-size: 23px;
     font-weight: 500;
 }
-
+.welcome-text {
+    font-size: 17px;
+    color: #274970;
+    line-height: 1.7rem;
+    display: inline-block;
+    width: 60%;
+}
 .content-section {
     text-align: center;
     position: relative;
+    background-color: #fff;
 }
 .mySlides {
     display: none
 }
-
+span {
+    font-weight: 700;
+}
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
@@ -85,9 +97,9 @@ p {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: #fff;
+  color: #274970;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -112,6 +124,7 @@ p {
 .text {
   width: 100%;
   text-align: center;
+  margin-top: 5rem;
 }
 
  input[type="text"] {
@@ -120,7 +133,7 @@ p {
     border: 1px solid #ccc;
     background: #FFF;
     margin: 0 0 5px;
-    padding: 15px;
+    padding: 12px;
     font-size: 16px;
     margin-top: 20px;
  }
@@ -138,11 +151,14 @@ input:focus {
     display: inline-block;
     margin-top: 10px;
     width: 60%;
-    padding: 10px 30px;
+    padding: 7px 30px;
     background-color: #274970;
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+}
+.btn-inquire:hover {
+    background-color: #274967
 }
 /* The dots/bullets/indicators */
 .dot-section {
@@ -150,8 +166,8 @@ input:focus {
 }
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -181,22 +197,41 @@ input:focus {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
- @media only screen and (max-width: 760px) {
-  .prev, .next,.text {font-size: 11px}
-  .image-section {
-      display: none;
-  }
-  .content-section {
-      max-width: 1000px
-  }
-   .column {
+/* On smaller screens */
+ @media screen and (max-width: 760px) {
+  .prev, .next,.text {
+      font-size: 15px
+    }
+    .column {
     flex: 1;
     padding: 0;
-  }
-
-  .double-column {
-    flex: 1;
+    }
+    .double-column {
+    flex: 3000;
     padding: 0;
-  }
+    }
+    .content-image {
+    width: 30%;
+    margin-top: 30px;
+    }
+    .welcome-text {
+    font-size: 17px;
+    display: inline-block;
+    width: 50%;
+    }
+    input[type="text"] {
+        margin-top: 30px;
+    width: 90%;
+    }
+    .btn-inquire {
+    display: inline-block;
+    width: 90%;
+    cursor: pointer;
+    }
+    .btn-inquire:hover {
+    background-color: #274967
+    }
+    p {
+    font-size: 20px;
+    }
 } 
