@@ -229,9 +229,10 @@ button {
 
 }
 .logo{
-	margin-top: -15px; 
+	margin-right: 5px; 
 }
 .logo-name{
+    display: inline-block;
 	font-weight: bold;
     color: #274970;
     font-size: 20px;
