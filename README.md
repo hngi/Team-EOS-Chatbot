@@ -15,7 +15,7 @@
 # Installation Guide To run on your local evn 
 
 - You  need to have a php server and a mysql database installed. You can download either xampp or wamp server.
-- Clone this repository into `any folder`  <br>
+- Clone this repository into the `htdocs folder`  <br>
 
 - **If you have not been added to the organization, kindly work in your forked repository and open a pull request here** <br>
 - Fork the repository and push to your `staging branch`
@@ -33,17 +33,7 @@ git clone https://github.com/hngi/Team-EOS-Chatbot.git
 git checkout staging
 ```
 
-The template for your profile page can be found here
-`views/interns/template.php`
-
-- Copy the contents of that file
-- Create a new file with your slack username, e.g `mark.php`
-- Paste the contents there
-- Now your page should be assesible via `localhost:8000/interns/mark`
   ![hng profile](https://res.cloudinary.com/iambeejayayo/image/upload/v1554302765/download.png)
-- Edit the contents of the file to your profile details
-- Push to `staging` branch and open a pull request
-- Wait for review
 
 **Ensure you read this doc [here](https://docs.google.com/document/d/1TxZqGLsut4ZVJEP6xF-DZGq3goaHfQ2phF-1I3YbrNc/edit?usp=sharing) for complete instructions** <br>
 Failure to do this will warant closing your pull request
