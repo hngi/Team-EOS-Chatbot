@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	displayChat(); // Displays the chat(s) immediately the page loads
 
+	// submit the user inputs
 	$("#submit_message").click(function(){
 		var question = $("#question").val();
 
@@ -20,6 +21,7 @@ $(document).ready(function(){
 	});
 });
 
+// This displays the chat
 function displayChat() {
 	$.ajax({
 		url: "ajax.php",
@@ -32,4 +34,9 @@ function displayChat() {
 			$("#dropbox").html(d);
 		}
 	});
+}
+
+function reloadP() {
+    sessionStorage.setItem("reloading", "true");
+    document.location.reload();
 }

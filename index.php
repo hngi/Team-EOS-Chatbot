@@ -9,7 +9,7 @@
 	<div class="chatBot" id="chatBot">
 		<div class="clear"></div>
 		<div id="dropbox">
-			<!--The Messages Appear Here-->
+			<!--The Chat Messages Appear Here-->
 		</div>
 		
 		<div class="text" id="chatForm">
@@ -20,5 +20,6 @@
 	</div>
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/chat.js"></script>
 </body>
 </html>
