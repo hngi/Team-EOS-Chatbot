@@ -36,17 +36,15 @@ body {
 menu {
     display: flex;
     justify-content: flex-end;
-    margin: 15px
+    margin: 20px
 }
 .skip-btn {
-    padding: 7px 30px;
-    background-color: #274970;
     text-decoration: none;
-    color: #fff;
+    color: #274970;
     font-size: 20px;
 }
 .skip-btn:hover {
-    background-color: #274967
+    color: #274967
 }
 
 
