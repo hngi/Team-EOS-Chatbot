@@ -33,7 +33,7 @@
 				//Insert if there is a "train" keyword
 				if ($command === "train" || $command === "Train" ) {
 					// Insert the question and answer into the database.
-					$query =  mysqli_query($conn,"INSERT INTO message (userId, question, answer) VALUES ('$userId', '$commandQuestion', '$commandAnswer')");
+					$query =  mysqli_query($conn,"INSERT INTO message (question, answer) VALUES ('$commandQuestion', '$commandAnswer')");
 					if (!$query) {
 						echo "Could not submit your command to train the bot!";
 					}
@@ -44,7 +44,7 @@
 		// If There is no "train" keyword, treat the input as question and get an answer for it.
 		else {
 			// get the question and answer from the message table.
-			$query =  "SELECT question, answer, dates FROM message WHERE question LIKE '%$question%' LIMIT 1";
+			$query =  "SELECT * FROM message WHERE question LIKE '%$question%' LIMIT 1";
 			$result = $conn->query($query);
 			if ($result->num_rows > 0) {
 				// if selection was successful
