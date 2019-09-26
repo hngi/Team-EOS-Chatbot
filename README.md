@@ -10,7 +10,13 @@
 </div>
 
 # To view the final Build
-- URL will be available soon.
+- Visit [EOS Chatbot](http://codavengers.000webhostapp.com/eos-chatbot)
+
+# To use this app as the admin
+- You can train the bot on likely questions you feel the users can ask it and provide the answer as well in a sinlge line of string. Use the sample below in the exact format: <br>
+- train:what is my name#Your name is Kazeem <br>
+The bot has been programmed to automatically detects that you want to train it from the string passed. If the string passed does not have these special characters, it will treat the string as a question by an ordinary User. <br>
+- ENJOY Team EOS Chatbot in your applications!
 
 # Installation Guide To run on your local evn 
 

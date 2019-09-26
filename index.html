@@ -20,7 +20,7 @@
                     <div class="double-column">
                         <div class="content-section">
                             <menu>
-                                <a href="#lastCarol" class="skip-btn">Skip</a>
+                                <a href="#lastCarol" class="skip-btn" onclick="currentSlide(4)">Skip</a>
                             </menu>
                             <div class="slideshow-container">
                                 <div class="mySlides fade">
@@ -59,9 +59,11 @@
                                     <div class="text">
                                         <h3>Buzz Donna</h3>
                                         <p>Hey, my name is Donna and I will be your health provider today, what’s your name?</p>
-                                        <input type="text" name="Jon Snow" placeholder="Jon Snow" id="" required>
-                                        <br>
-                                        <a href="" class="btn-inquire">Inquire</a>
+                                        <form action="inc/start-chart.php" method="post">
+                                            <input type="text" name="user" placeholder="Jon Snow" id="" required>
+                                            <br>
+                                            <button class="btn-inquire" name="submitUser">Inquire</button>
+                                         </form>
                                     </div>
                                 </div>
                         

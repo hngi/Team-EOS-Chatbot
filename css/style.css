@@ -154,6 +154,7 @@ input:focus {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    border: none;
 }
 .btn-inquire:hover {
     background-color: #274967
