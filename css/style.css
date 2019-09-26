@@ -243,5 +243,8 @@ input:focus {
   .skip-btn:hover {
     background-color: transparent
   }
+  h3 {
+    letter-spacing: 0px;
+}
 
 } 
