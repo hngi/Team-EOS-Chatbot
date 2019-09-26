@@ -10,7 +10,7 @@
 </div>
 
 # To view the final Build
-- Visit [EOS Chatbot](https://team-eos-chatbot.000webhostapp.com)
+- Visit [EOS Chatbot](http://codavengers.000webhostapp.com)
 
 # To use this app as the admin
 - You can train the bot on likely questions you feel the users can ask it and provide the answer as well in a sinlge line of string. Use the sample below in the exact format: <br>
